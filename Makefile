@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra
 
-TARGET = minishell
+TARGET = mini-Shell
 
 all:
 	$(CC) $(CFLAGS) main.c -o $(TARGET)
